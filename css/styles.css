@@ -1,0 +1,126 @@
+body    {
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4, h5, h6  {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+p   {
+    color: #636d6d;
+}
+
+
+#title  {
+    color: #fff;
+    background-color: #e94560;
+}
+
+
+.container-fluid    {
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar-brand   {
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+}
+
+.nav-item   {
+    padding: 0 18px;
+}
+
+.nav-link   {
+    font-size: 1.2rem;
+}
+
+/* Title Section */
+.title-img  {
+    width: 100%;
+}
+
+#title h1   {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+#title p    {
+    color: #fff;
+    margin-left: 0;
+    line-height: 1.5;
+}
+
+.title-btn  {
+    margin-top: 20px;
+}
+
+.tagline    {
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 30px;
+    color: #fff;
+}
+
+@media (max-width: 1060px) {
+    #title  {
+        text-align: center;
+    }
+
+}
+
+.horizontal {
+    width: 10%;
+    border-width: 5px;
+    border-color: #b5c3d4;
+    padding-bottom: 20px;
+}
+
+#about  {
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.about-text h2  {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-text h3  {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.about-box  {
+    text-align: center;
+}
+
+.about-box h3,p {
+    width: 80%;
+    margin: auto;
+}
+
+.icons  {
+    color: #e94560;
+    margin: 20px 0;
+}
+
+#contact    {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #742d53;
+    color: #fff;
+}
+
+.contact-btn    {
+    margin: 0 10px 20px 0;
+}
+
+
+#footer {
+    padding: 1% 15%;
+    text-align: center;
+}
