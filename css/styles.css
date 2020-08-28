@@ -82,6 +82,24 @@ p   {
 
 }
 
+@media (max-width: 700px)   {
+    #title h1  {
+        font-size: 2rem;
+    }
+
+    .about-text h2, #contact h2  {
+        font-size: 1.5rem;
+    }
+
+    .about-text h3  {
+        font-size: 1rem;
+    }
+
+    p   {
+        font-size: 0.8rem;
+    }
+}
+
 
 #about  {
     padding: 7% 15%;
