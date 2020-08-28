@@ -5,7 +5,6 @@ body    {
 h1, h2, h3, h4, h5, h6  {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 20px;
-    line-height: 1.5;
 }
 
 p   {
@@ -40,11 +39,13 @@ p   {
 /* Title Section */
 .title-img  {
     width: 100%;
+    padding-top: 5%;
 }
 
 #title h1   {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 900;
+    line-height: 1.5;
 }
 
 #title p    {
@@ -54,7 +55,7 @@ p   {
 }
 
 .title-btn  {
-    margin-top: 20px;
+    margin: 5% 3% 5% 0;
 }
 
 .tagline    {
@@ -65,18 +66,22 @@ p   {
 }
 
 @media (max-width: 1060px) {
-    #title  {
+    #title {
         text-align: center;
+    }
+
+    #title p    {
+        text-align: center;
+        margin: auto;
+        padding-bottom: 15px;
+    }
+
+    .title-img  {
+        padding-bottom: 50px;
     }
 
 }
 
-.horizontal {
-    width: 10%;
-    border-width: 5px;
-    border-color: #b5c3d4;
-    padding-bottom: 20px;
-}
 
 #about  {
     padding: 7% 15%;
@@ -85,8 +90,9 @@ p   {
 
 .about-text h2  {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .about-text h3  {
@@ -96,6 +102,7 @@ p   {
 
 .about-box  {
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .about-box h3,p {
@@ -105,14 +112,20 @@ p   {
 
 .icons  {
     color: #e94560;
-    margin: 20px 0;
+    margin-bottom: 1rem;
 }
 
 #contact    {
     padding: 7% 15%;
     text-align: center;
-    background-color: #742d53;
+    background-color: #e94560;
     color: #fff;
+}
+
+#contact h2  {
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .contact-btn    {
@@ -121,6 +134,10 @@ p   {
 
 
 #footer {
-    padding: 1% 15%;
+    padding: 3% 15%;
     text-align: center;
+}
+
+#footer i   {
+    padding: 0 10px 20px 0;
 }
